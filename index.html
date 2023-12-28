@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum-kit</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Drum-Kit 1.0</h1>
+    <video autoplay loop muted plays-inline class="back-video">
+        <source src = "sounds/background.mp4" type="video/mp4">
+       </video>
+    <div class="keys">
+        <div data-key="81" class="key">
+            <kbd>Q</kbd>
+            <span class="sound">Boom</span>
+        </div>
+        <div data-key="87" class="key">
+            <kbd>W</kbd>
+            <span class="sound">Clap</span>
+        </div>
+        <div data-key="69" class="key">
+            <kbd>E</kbd>
+            <span class="sound">HiHat</span>
+        </div>
+        <div data-key="82" class="key">
+            <kbd>R</kbd>
+            <span class="sound">OpenHat</span>
+        </div>
+        <div data-key="84" class="key">
+            <kbd>T</kbd>
+            <span class="sound">Kick</span>
+        </div>
+        <div data-key="89" class="key">
+            <kbd>Y</kbd>
+            <span class="sound">Ride</span>
+        </div>
+        <div data-key="85" class="key">
+            <kbd>U</kbd>
+            <span class="sound">Snare</span>
+        </div>
+        <div data-key="73" class="key">
+            <kbd>I</kbd>
+            <span class="sound">Tom</span>
+        </div>
+        <div data-key="79" class="key">
+            <kbd>O</kbd>
+            <span class="sound">Tink</span>
+        </div>
+    </div>
+    <audio data-key="81" src="sounds/boom.ogg"</audio>
+
+        <audio data-key="87" src="sounds/Clap - Neat.wav"</audio>
+        
+        <audio data-key="69" src="sounds/hihat-acoustic02.wav"</audio>
+        
+        <audio data-key="82" src="sounds/openhat-acoustic01.wav"</audio>
+        
+        <audio data-key="84" src="sounds/kick-acoustic02.wav"</audio>
+        
+        <audio data-key="89" src="sounds/ride-acoustic02.wav"</audio>
+        
+        <audio data-key="85" src="sounds/Snare - Tight.wav"</audio>
+        
+        <audio data-key="73" src="sounds/tom-acoustic02.wav"</audio>
+        
+        <audio data-key="79" src="sounds/tink.wav"</audio>
+    <script src="script.js"></script>
+</body>
+</html>
